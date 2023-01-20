@@ -1,0 +1,455 @@
+2023-01-18 21:31:57 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user1','user1pass@123') 
+  2023-01-18 21:31:57 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 21:31:57 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user2','user2pass@123') 
+  2023-01-18 21:31:57 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 22:08:58 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user1','user1pass@123') 
+  2023-01-18 22:08:58 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 22:10:58 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user1','user1pass@123') 
+  2023-01-18 22:10:58 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 22:10:58 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user2','user2pass@123') 
+  2023-01-18 22:10:58 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 22:11:27 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user1','user1pass@123') 
+  2023-01-18 22:11:27 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-18 22:11:49 DEBUG UserDaoImpl:29 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('user1','user1pass@123') 
+  2023-01-18 22:11:49 INFO  UserDaoImpl:32 - Added User Details
+  2023-01-19 08:31:54 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`USER_ID`,`PASSWORD`) VALUES ('mrunal123','dsgrhjn') 
+  2023-01-19 08:31:54 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 09:36:51 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('mrunal@123','mrunal') 
+  2023-01-19 09:36:52 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 09:37:03 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('eshwari@432','eshwari') 
+  2023-01-19 09:37:03 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 09:45:07 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('anuj@123','anuj') 
+  2023-01-19 09:45:07 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 09:57:38 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('gaytri','gayu') 
+  2023-01-19 09:57:38 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:05:46 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('mrunal@123','mrunal') 
+  2023-01-19 10:05:46 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:19:38 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('sangeeta','raj') 
+  2023-01-19 10:19:38 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:22:16 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('ashwin@1616','ashwin') 
+  2023-01-19 10:22:16 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:34:45 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('mrunal@1616','mrunal') 
+  2023-01-19 10:34:45 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:35:03 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('eshwari@123','eshwari') 
+  2023-01-19 10:35:03 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 10:35:36 DEBUG UserDaoImpl:38 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`) VALUES ('ashwin@1616','mrunallll') 
+  2023-01-19 10:35:36 INFO  UserDaoImpl:41 - Added User Details
+  2023-01-19 12:22:00 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`username`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES (22,'mrunal','Mrunal Barde','mrunalbarde@gmail.com','9325601616','2000-11-11',** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+  2023-01-19 12:26:31 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`username`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES (22,'mrunal','Mrunal Barde','mrunal@gmail.com','9325601616','2000-11-11',** NOT SPECIFIED **) 
+  2023-01-19 12:30:53 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`username`,`email`,`phone_no`,`date_of_birth`,`age`,,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal@1616','mrunal','Mrunal','mrunal@gmail.com','9325601616','2000-11-11',22,'pune','na','234452345') 
+  2023-01-19 12:33:12 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`username`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal@1616','mrunal','Mrunal','mrunal@gmail.com','9325601616','2000-11-11',22,'pune','na','98327425') 
+  2023-01-19 12:33:12 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 12:36:43 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`username`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal@1616','mrunal','Mrunal','mrunal@gmail.com','9325601616','2000-11-11',22,'pune','no','23534523') 
+  2023-01-19 12:36:43 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 12:40:35 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal','mrunal','mrunal','mrunal','93725','2000-11-11',22,'pune','no','2343') 
+  2023-01-19 12:40:35 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 13:45:50 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal','mrunal','mrunal'','mrunal','9325601616','2000-11-11',22,'pune','no','239735') 
+  2023-01-19 13:45:50 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 13:53:07 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal','mrunal','mrunal','mrunal','9325601616','2000-11-11',22,'pune','no','239040932759') 
+  2023-01-19 13:53:07 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 13:57:49 DEBUG UserDaoImpl:61 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`,`address`,`physical_disability`,`identity_proof`) VALUES ('mrunal','mrunal','mrunal','mrunal','9325601616','2000-11-11',22,'pune','no','093274') 
+  2023-01-19 13:57:49 INFO  UserDaoImpl:64 - Added User Details
+  2023-01-19 15:34:29 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('eshwari','eshu','burlawar','eshu@gmail','8967563452','2000-11-11',22,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+  2023-01-19 15:38:28 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('eshwari','eshu','burlawar','eshwari@gmail','867564534','2000-11-11',22) 
+  2023-01-19 15:38:28 INFO  UserDaoImpl:55 - Added User Details
+  2023-01-19 15:55:24 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('mrunal','mrunu','barde','mrunal@gmail','93748712','2000-05-13',22) 
+  2023-01-19 15:55:24 INFO  UserDaoImpl:55 - Added User Details
+  2023-01-19 16:06:29 DEBUG UserDaoImpl:52 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('anuj','namu','anuj2','anuj12','927389234','2003-08-25',19) 
+  2023-01-19 16:06:29 INFO  UserDaoImpl:55 - Added User Details
+  2023-01-19 18:22:31 INFO  Main:20 - ----Select from below options for User registration----
+  2023-01-19 18:22:31 INFO  Main:21 - 1.Add User Details
+  2023-01-19 18:22:31 INFO  Main:22 - 2.Update User Details
+  2023-01-19 18:22:31 INFO  Main:23 - 3.Delete User Details
+  2023-01-19 18:22:31 INFO  Main:24 - 4.Display User Details of given login Id
+  2023-01-19 18:22:31 INFO  Main:25 - 5.Display User Details of All Users
+  2023-01-19 18:22:31 INFO  Main:26 - 6.Exit
+
+  2023-01-19 18:22:31 INFO  Main:27 - Enter your choice: 
+  2023-01-19 18:24:03 INFO  Main:38 - Enter login Id which you want to update : 
+  2023-01-19 18:24:35 INFO  Main:41 - inside for
+  2023-01-19 18:24:35 INFO  Main:41 - inside for
+  2023-01-19 18:24:35 INFO  Main:43 - inside if
+  2023-01-19 18:24:35 INFO  UserDaoImpl:59 - Enter password to update :
+  2023-01-19 23:23:48 INFO  UserServiceImpl:34 - ==================Welcome to Dr.24/7=============) 
+  2023-01-19 23:23:48 INFO  UserServiceImpl:35 - 1.Sign In
+  2023-01-19 23:23:48 INFO  UserServiceImpl:36 - 2.Sign Up
+  2023-01-19 23:23:48 INFO  UserServiceImpl:37 - 3.Exit
+  2023-01-19 23:24:27 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:24:27 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:24:27 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:24:27 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:24:27 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:24:27 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:24:27 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:25:06 INFO  UserServiceImpl:87 - Enter login Id which you want to update : 
+  2023-01-19 23:25:17 INFO  UserServiceImpl:90 - inside for
+  2023-01-19 23:25:17 INFO  UserServiceImpl:90 - inside for
+  2023-01-19 23:25:17 INFO  UserServiceImpl:92 - inside if
+  2023-01-19 23:25:17 INFO  UserDaoImpl:59 - Enter password to update :
+  2023-01-19 23:25:32 INFO  UserDaoImpl:61 - Enter Username :
+  2023-01-19 23:25:37 INFO  UserDaoImpl:63 - Enter email  :
+  2023-01-19 23:25:47 INFO  UserDaoImpl:65 - Enter phone number :
+  2023-01-19 23:25:51 INFO  UserDaoImpl:67 - Enter date of birth :
+  2023-01-19 23:25:57 INFO  UserDaoImpl:70 - Enter address :
+  2023-01-19 23:26:00 INFO  UserDaoImpl:72 - Enter physical disability :
+  2023-01-19 23:26:02 INFO  UserDaoImpl:74 - Enter identity proof :
+  2023-01-19 23:26:05 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:26:05 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:26:05 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:26:05 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:26:05 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:26:05 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:26:05 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:26:18 INFO  UserServiceImpl:99 - Enter your loginId you want to view: 
+  2023-01-19 23:26:21 INFO  UserServiceImpl:101 - User [dateutil=com.revature.util.DateUtil@f0c8a99, loginId=mrunal, password=ashuuuu, username=mrunalbarde, email=mrunal@gmail.com, phoneNo=9325601616, address=Pune, dateOfBirth=2000-11-11, physicalDisability=No, identityProof=4353289578476, age=22]
+  2023-01-19 23:26:21 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:26:21 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:26:21 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:26:21 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:26:21 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:26:21 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:26:21 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:26:33 INFO  UserServiceImpl:105 - Enter your loginId you want to delete : 
+  2023-01-19 23:26:36 INFO  UserServiceImpl:108 - Your's LoginId Deleted Successfully
+  2023-01-19 23:26:36 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:26:36 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:26:36 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:26:36 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:26:36 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:26:36 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:26:36 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:26:44 INFO  UserServiceImpl:111 - list of users
+[User [dateutil=com.revature.util.DateUtil@644baf4a, loginId=eshwari, password=eshu, username=burlawar, email=eshwari@gmail, phoneNo=867564534, address=null, dateOfBirth=2000-11-11, physicalDisability=null, identityProof=null, age=22], User [dateutil=com.revature.util.DateUtil@7526515b, loginId=anuj, password=anuuuu, username=anujbarde, email=anujbarde@gmail.com, phoneNo=9823111616, address=kolhapur, dateOfBirth=2000-11-11, physicalDisability=no, identityProof=32453547, age=22]]
+  2023-01-19 23:26:44 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:26:44 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:26:44 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:26:44 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:26:44 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:26:44 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:26:44 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:32:04 INFO  UserServiceImpl:34 - ==================Welcome to Dr.24/7=============) 
+  2023-01-19 23:32:04 INFO  UserServiceImpl:35 - 1.Sign In
+  2023-01-19 23:32:04 INFO  UserServiceImpl:36 - 2.Sign Up
+  2023-01-19 23:32:04 INFO  UserServiceImpl:37 - 3.Exit
+  2023-01-19 23:32:12 INFO  UserDaoImpl:26 - Enter login Id :
+  2023-01-19 23:32:23 INFO  UserDaoImpl:28 - Enter password :
+  2023-01-19 23:32:31 INFO  UserDaoImpl:30 - Enter Username :
+  2023-01-19 23:32:35 INFO  UserDaoImpl:32 - Enter email  :
+  2023-01-19 23:32:41 INFO  UserDaoImpl:34 - Enter phone number :
+  2023-01-19 23:32:43 INFO  UserDaoImpl:36 - Enter date of birth :
+  2023-01-19 23:32:55 DEBUG UserDaoImpl:50 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('mrunal','ashuuuu','mrunalbarde','mrunal@gmail.con','329578345','2003-08-25',19) 
+  2023-01-19 23:32:55 INFO  UserDaoImpl:53 - Added User Details
+  2023-01-19 23:32:55 INFO  UserServiceImpl:34 - ==================Welcome to Dr.24/7=============) 
+  2023-01-19 23:32:55 INFO  UserServiceImpl:35 - 1.Sign In
+  2023-01-19 23:32:55 INFO  UserServiceImpl:36 - 2.Sign Up
+  2023-01-19 23:32:55 INFO  UserServiceImpl:37 - 3.Exit
+  2023-01-19 23:33:15 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:33:15 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:33:15 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:33:15 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:33:15 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:33:15 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:33:15 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:33:27 INFO  UserServiceImpl:111 - list of users
+[User [dateutil=com.revature.util.DateUtil@740cae06, loginId=eshwari, password=eshu, username=burlawar, email=eshwari@gmail, phoneNo=867564534, address=null, dateOfBirth=2000-11-11, physicalDisability=null, identityProof=null, age=22], User [dateutil=com.revature.util.DateUtil@26d9b808, loginId=anuj, password=anuuuu, username=anujbarde, email=anujbarde@gmail.com, phoneNo=9823111616, address=kolhapur, dateOfBirth=2000-11-11, physicalDisability=no, identityProof=32453547, age=22], User [dateutil=com.revature.util.DateUtil@f78a47e, loginId=mrunal, password=ashuuuu, username=mrunalbarde, email=mrunal@gmail.con, phoneNo=329578345, address=null, dateOfBirth=2003-08-25, physicalDisability=null, identityProof=null, age=19]]
+  2023-01-19 23:33:27 INFO  UserServiceImpl:73 - -----Select from below options for further process-----
+  2023-01-19 23:33:27 INFO  UserServiceImpl:74 - 1.Update User Details
+  2023-01-19 23:33:27 INFO  UserServiceImpl:75 - 2.Dispaly User Details
+  2023-01-19 23:33:27 INFO  UserServiceImpl:76 - 3.Delete User Details
+  2023-01-19 23:33:27 INFO  UserServiceImpl:77 - 4.Dispaly All User Details
+  2023-01-19 23:33:27 INFO  UserServiceImpl:78 - 5.Exit
+  2023-01-19 23:33:27 INFO  UserServiceImpl:79 - Enter your choice
+  2023-01-19 23:35:47 INFO  UserServiceImpl:28 - ==================Welcome to Dr.24/7=============) 
+  2023-01-19 23:35:47 INFO  UserServiceImpl:29 - 1.Sign In
+  2023-01-19 23:35:47 INFO  UserServiceImpl:30 - 2.Sign Up
+  2023-01-19 23:35:47 INFO  UserServiceImpl:31 - 3.Exit
+  2023-01-19 23:35:53 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-19 23:35:53 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-19 23:35:53 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-19 23:35:53 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-19 23:35:53 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-19 23:35:53 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-19 23:35:53 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-19 23:35:58 INFO  UserServiceImpl:105 - list of users
+[
+=========Patient Details==========
+loginId=eshwari
+password=eshu
+username=burlawar
+email=eshwari@gmail
+phoneNo=867564534
+address=null
+birthDate=2000-11-11
+physicalDisability=null
+identityProof=null
+age=22, 
+=========Patient Details==========
+loginId=anuj
+password=anuuuu
+username=anujbarde
+email=anujbarde@gmail.com
+phoneNo=9823111616
+address=kolhapur
+birthDate=2000-11-11
+physicalDisability=no
+identityProof=32453547
+age=22, 
+=========Patient Details==========
+loginId=mrunal
+password=ashuuuu
+username=mrunalbarde
+email=mrunal@gmail.con
+phoneNo=329578345
+address=null
+birthDate=2003-08-25
+physicalDisability=null
+identityProof=null
+age=19]
+  2023-01-19 23:35:58 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-19 23:35:58 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-19 23:35:58 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-19 23:35:58 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-19 23:35:58 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-19 23:35:58 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-19 23:35:58 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-19 23:38:09 INFO  UserServiceImpl:28 - ==================Welcome to Bus Reservation=============) 
+  2023-01-19 23:38:09 INFO  UserServiceImpl:29 - 1.Sign In
+  2023-01-19 23:38:09 INFO  UserServiceImpl:30 - 2.Sign Up
+  2023-01-19 23:38:09 INFO  UserServiceImpl:31 - 3.Exit
+  2023-01-19 23:38:12 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-19 23:38:12 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-19 23:38:12 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-19 23:38:12 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-19 23:38:12 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-19 23:38:12 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-19 23:38:12 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-19 23:38:15 INFO  UserServiceImpl:105 - list of users
+[
+=========User Details==========
+loginId=eshwari
+password=eshu
+username=burlawar
+email=eshwari@gmail
+phoneNo=867564534
+address=null
+birthDate=2000-11-11
+physicalDisability=null
+identityProof=null
+age=22, 
+=========User Details==========
+loginId=anuj
+password=anuuuu
+username=anujbarde
+email=anujbarde@gmail.com
+phoneNo=9823111616
+address=kolhapur
+birthDate=2000-11-11
+physicalDisability=no
+identityProof=32453547
+age=22, 
+=========User Details==========
+loginId=mrunal
+password=ashuuuu
+username=mrunalbarde
+email=mrunal@gmail.con
+phoneNo=329578345
+address=null
+birthDate=2003-08-25
+physicalDisability=null
+identityProof=null
+age=19]
+  2023-01-19 23:38:15 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-19 23:38:15 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-19 23:38:15 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-19 23:38:15 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-19 23:38:15 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-19 23:38:15 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-19 23:38:15 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:22:11 INFO  UserServiceImpl:28 - ==================Welcome to Bus Reservation=============) 
+  2023-01-20 07:22:11 INFO  UserServiceImpl:29 - 1.Sign In
+  2023-01-20 07:22:11 INFO  UserServiceImpl:30 - 2.Sign Up
+  2023-01-20 07:22:11 INFO  UserServiceImpl:31 - 3.Exit
+  2023-01-20 07:22:24 INFO  UserDaoImpl:27 - Enter login Id :
+  2023-01-20 07:22:28 INFO  UserDaoImpl:29 - Enter password :
+  2023-01-20 07:22:31 INFO  UserDaoImpl:31 - Enter Username :
+  2023-01-20 07:22:36 INFO  UserDaoImpl:33 - Enter email  :
+  2023-01-20 07:22:47 INFO  UserDaoImpl:35 - Enter phone number :
+  2023-01-20 07:22:51 INFO  UserDaoImpl:37 - Enter date of birth :
+  2023-01-20 07:23:02 DEBUG UserDaoImpl:51 - I want to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`registration` (`LOGIN_ID`,`PASSWORD`,`USERNAME`,`email`,`phone_no`,`date_of_birth`,`age`) VALUES ('mrunal','mrunuu','MrunalBarde','mrunalbarde','9325601616','2000-11-11',22) 
+  2023-01-20 07:23:02 INFO  UserDaoImpl:54 - Added User Details
+  2023-01-20 07:23:02 INFO  UserServiceImpl:28 - ==================Welcome to Bus Reservation=============) 
+  2023-01-20 07:23:02 INFO  UserServiceImpl:29 - 1.Sign In
+  2023-01-20 07:23:02 INFO  UserServiceImpl:30 - 2.Sign Up
+  2023-01-20 07:23:02 INFO  UserServiceImpl:31 - 3.Exit
+  2023-01-20 07:23:14 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:23:14 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:23:14 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:23:14 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:23:14 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:23:14 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:23:14 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:23:32 INFO  UserServiceImpl:105 - list of users
+[
+=========User Details==========
+loginId=eshwari
+password=eshu
+username=burlawar
+email=eshwari@gmail
+phoneNo=867564534
+address=null
+birthDate=2000-11-11
+physicalDisability=null
+identityProof=null
+age=22, 
+=========User Details==========
+loginId=anuj
+password=anuuuu
+username=anujbarde
+email=anujbarde@gmail.com
+phoneNo=9823111616
+address=kolhapur
+birthDate=2000-11-11
+physicalDisability=no
+identityProof=32453547
+age=22, 
+=========User Details==========
+loginId=mrunal
+password=mrunuu
+username=MrunalBarde
+email=mrunalbarde
+phoneNo=9325601616
+address=null
+birthDate=2000-11-11
+physicalDisability=null
+identityProof=null
+age=22]
+  2023-01-20 07:23:32 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:23:32 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:23:32 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:23:32 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:23:32 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:23:32 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:23:32 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:23:43 INFO  UserServiceImpl:81 - Enter login Id which you want to update : 
+  2023-01-20 07:23:46 INFO  UserServiceImpl:84 - inside for
+  2023-01-20 07:23:46 INFO  UserServiceImpl:84 - inside for
+  2023-01-20 07:23:46 INFO  UserServiceImpl:84 - inside for
+  2023-01-20 07:23:46 INFO  UserServiceImpl:86 - inside if
+  2023-01-20 07:23:46 INFO  UserDaoImpl:60 - Enter password to update :
+  2023-01-20 07:23:52 INFO  UserDaoImpl:62 - Enter Username :
+  2023-01-20 07:23:57 INFO  UserDaoImpl:64 - Enter email  :
+  2023-01-20 07:24:03 INFO  UserDaoImpl:66 - Enter phone number :
+  2023-01-20 07:24:07 INFO  UserDaoImpl:68 - Enter date of birth :
+  2023-01-20 07:24:16 INFO  UserDaoImpl:71 - Enter address :
+  2023-01-20 07:24:19 INFO  UserDaoImpl:73 - Enter physical disability :
+  2023-01-20 07:24:21 INFO  UserDaoImpl:75 - Enter identity proof :
+  2023-01-20 07:24:25 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:24:25 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:24:25 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:24:25 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:24:25 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:24:25 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:24:25 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:24:33 INFO  UserServiceImpl:93 - Enter your loginId you want to view: 
+  2023-01-20 07:24:37 INFO  UserServiceImpl:95 - 
+=========User Details==========
+loginId=mrunal
+password=mrunuu
+username=MrunalBarde
+email=mrunal@gmail.com
+phoneNo=9325601616
+address=Pune
+birthDate=2003-08-25
+physicalDisability=No
+identityProof=3454565768
+age=19
+  2023-01-20 07:24:37 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:24:37 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:24:37 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:24:37 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:24:37 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:24:37 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:24:37 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:24:46 INFO  UserServiceImpl:99 - Enter your loginId you want to delete : 
+  2023-01-20 07:24:50 INFO  UserServiceImpl:102 - Your's LoginId Deleted Successfully
+  2023-01-20 07:24:50 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:24:50 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:24:50 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:24:50 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:24:50 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:24:50 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:24:50 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 07:24:55 INFO  UserServiceImpl:105 - list of users
+[
+=========User Details==========
+loginId=eshwari
+password=eshu
+username=burlawar
+email=eshwari@gmail
+phoneNo=867564534
+address=null
+birthDate=2000-11-11
+physicalDisability=null
+identityProof=null
+age=22, 
+=========User Details==========
+loginId=mrunal
+password=mrunuu
+username=MrunalBarde
+email=mrunal@gmail.com
+phoneNo=9325601616
+address=Pune
+birthDate=2003-08-25
+physicalDisability=No
+identityProof=3454565768
+age=19]
+  2023-01-20 07:24:55 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 07:24:55 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 07:24:55 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 07:24:55 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 07:24:55 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 07:24:55 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 07:24:55 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 08:44:48 INFO  UserServiceImpl:28 - ==================Welcome to Bus Reservation=============) 
+  2023-01-20 08:44:48 INFO  UserServiceImpl:29 - 1.Sign In
+  2023-01-20 08:44:48 INFO  UserServiceImpl:30 - 2.Sign Up
+  2023-01-20 08:44:48 INFO  UserServiceImpl:31 - 3.Exit
+  2023-01-20 08:44:51 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 08:44:51 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 08:44:51 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 08:44:51 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 08:44:51 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 08:44:51 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 08:44:51 INFO  UserServiceImpl:73 - Enter your choice
+  2023-01-20 08:44:53 INFO  UserServiceImpl:105 - list of users
+[
+=========User Details==========
+loginId=Eshwari_Burlawar
+password=eshu@123
+username=Eshwari Burlawar
+email=eshwariburlawar123@gamil.com
+phoneNo=9921738268
+address=Yavatmal
+birthDate=2000-05-13
+physicalDisability=NA
+identityProof=7604 2345 6789
+age=22, 
+=========User Details==========
+loginId=Mrunal1616
+password=mrunal
+username=Mrunal Barde
+email=mbarde@gamil.com
+phoneNo=992000268
+address=Pune
+birthDate=2001-11-11
+physicalDisability=NA
+identityProof=8888 2345 6789
+age=21]
+  2023-01-20 08:44:53 INFO  UserServiceImpl:67 - -----Select from below options for further process-----
+  2023-01-20 08:44:53 INFO  UserServiceImpl:68 - 1.Update User Details
+  2023-01-20 08:44:53 INFO  UserServiceImpl:69 - 2.Dispaly User Details
+  2023-01-20 08:44:53 INFO  UserServiceImpl:70 - 3.Delete User Details
+  2023-01-20 08:44:53 INFO  UserServiceImpl:71 - 4.Dispaly All User Details
+  2023-01-20 08:44:53 INFO  UserServiceImpl:72 - 5.Exit
+  2023-01-20 08:44:53 INFO  UserServiceImpl:73 - Enter your choice
+  
