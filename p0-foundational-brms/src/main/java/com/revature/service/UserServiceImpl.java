@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService{
 				scan.nextLine();
 				switch (choice) {
 				case 1:
-					signIn();
+					authentication();
 					break;
 				case 2:
 					signUp();
@@ -61,14 +61,31 @@ public class UserServiceImpl implements UserService{
 	private void signUp() throws SQLException {
 		user.addUserDetails();
 	}
-	private void signIn() {
+	private void authentication() throws SQLException {
+		logger.info("Enter loginid : ");
+		String logId = scan.nextLine();
+		logger.info("Enter password : ");
+		String pass = scan.nextLine();
+		int flag=0;
+		for (User i : user.getUsers()) {
+			if (i.getLoginId().equals(logId) && i.getPassword().equals(pass)) {
+				logger.info("You have logged in Successfully");
+				signIn(logId);
+				flag=1;
+				break;
+			}
+		}
+		if(flag !=1) {
+			logger.info("Please Enter correct loginId and password");
+		}
+	}
+	private void signIn(String loginId) {
 		try {
 			do {
 				logger.info("-----Select from below options for further process-----");
 				logger.info("1.Update User Details");
 				logger.info("2.Dispaly User Details");
 				logger.info("3.Delete User Details");
-				logger.info("4.Dispaly All User Details");
 				logger.info("5.Exit");
 				logger.info("Enter your choice");
 
@@ -78,35 +95,24 @@ public class UserServiceImpl implements UserService{
 				switch (choice) {
 
 				case 1:
-					logger.info("Enter login Id which you want to update : ");
-					String loginIdToUpdate = scan.nextLine();
 					for (User i : user.getUsers()) {
-						if (i.getLoginId().equals(loginIdToUpdate)) {
+						if (i.getLoginId().equals(loginId)) {
 							user.updateUserDetails(i);
 							break;
 						}
 					}
 					break;
 				case 2:
-					logger.info("Enter your loginId you want to view: ");
-					String loginId = scan.nextLine();
 					logger.info(user.getUser(loginId));
 					break;
 				case 3:
-
-					logger.info("Enter your loginId you want to delete : ");
-					String loginIdToDelete = scan.nextLine();
-					user.delete(loginIdToDelete);
+					user.delete(loginId);
 					logger.info("Your's LoginId Deleted Successfully");
 					break;
 				case 4:
-					logger.info("list of users" + "\n" + user.getUsers());
-					break;
-				case 5:
 					System.exit(0);
-
 				default:
-					logger.info("Enter between 1and 6 only");
+					logger.info("Enter between 1 and 4 only");
 					break;
 
 				}

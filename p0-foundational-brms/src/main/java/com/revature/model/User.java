@@ -1,8 +1,5 @@
 package com.revature.model;
 
-import java.time.LocalDate;
-import java.util.Objects;
-
 import com.revature.util.DateUtil;
 
 public class User {
@@ -21,6 +18,11 @@ public class User {
 	
 	public User() {
 		
+	}
+	public User(String loginId, String password) {
+		super();
+		this.loginId = loginId;
+		this.password = password;
 	}
 	public User(String loginId, String password, String username, String email, String phoneNo) {
 		super();

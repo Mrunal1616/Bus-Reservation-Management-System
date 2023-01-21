@@ -25,8 +25,8 @@ public class UserDaoImplTest {
 	public void testDelete() {
 		User deleted =null;
 		try {
-			user.delete("mrunal");
-			deleted = user.getUser("mrunal");
+			user.delete("Mrunal1616");
+			deleted = user.getUser("Mrunal1616");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

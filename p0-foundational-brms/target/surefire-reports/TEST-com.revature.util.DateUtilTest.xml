@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.revature.dao.impl.UserDaoImplTest" time="0.261" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.revature.util.DateUtilTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,7 +61,5 @@
     <property name="m2e.build.project.data.socket.port" value="58760"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.revature.dao.impl.UserDaoImplTest" name="testGetUsers" time="0.25"/>
-  <testcase classname="com.revature.dao.impl.UserDaoImplTest" name="testGetUser" time="0.005"/>
-  <testcase classname="com.revature.dao.impl.UserDaoImplTest" name="testDelete" time="0.006"/>
+  <testcase classname="com.revature.util.DateUtilTest" name="testAgeCalculator" time="0"/>
 </testsuite>

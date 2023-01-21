@@ -11,15 +11,15 @@ import java.time.Period;
 import org.junit.Test;
 
 public class DateUtilTest {
-	/*@Test
-	public static void testAgeCalculator() {
+	@Test
+	public void testAgeCalculator() {
 		
 		LocalDate today = LocalDate.now();
 		LocalDate dateOfBirth = LocalDate.parse("2000-11-11");
 		
-		Period period = new Period(dateOfBirth, today,PeriodType.yearMonthDay());
-		assertNotEquals(29,age);
+		int age = Period.between(dateOfBirth, today).getYears();
+		assertEquals(22,age);
 		
 	}
-*/
+
 }
