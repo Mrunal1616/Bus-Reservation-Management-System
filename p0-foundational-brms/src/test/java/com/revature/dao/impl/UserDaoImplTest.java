@@ -48,23 +48,3 @@ public class UserDaoImplTest {
 	
 }
 
-/*
- * final Logger logger = Logger.getLogger(UserDaoImplTest.class); UserDao
- * userDao;
- * 
- * @Before public void setUp() throws Exception {
- * logger.info("---------UserDaoImplTest before every test---------"); userDao =
- * new UserDaoImpl();
- * 
- * }
- * 
- * @Test public void testInsertUser() { User toBeInserted = new User("user1",
- * "user1pass@123"); User inserted = null; try { userDao.addUserDetails();
- * inserted = userDao.getUser(toBeInserted.getUserId()); } catch (SQLException
- * e) { e.printStackTrace(); } assertEquals(toBeInserted.getPassword(),
- * inserted.getPassword()); }
- * 
- * @Test public void testDeleteUser() { User deleted = null; try {
- * userDao.delete("user1"); deleted = userDao.getUser("user1"); } catch
- * (SQLException e) { e.printStackTrace(); } assertNull(deleted); }
- */
